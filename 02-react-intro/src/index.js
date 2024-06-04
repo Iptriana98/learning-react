@@ -1,28 +1,24 @@
-console.log("Hello World");
-
-// Variables and constants
 const name = "Ibrahin";
+const lastName = "Perez";
 
-let age = 25;
-age = 26;
+// const fullName = name + " " + lastName;
 
-// output: Ibrahin 26.
-console.log(name, age);
+const fullName = `${name} ${lastName}`;
 
-if (true) {
-    // you can create name here because it isn't in the same scope 
-    // this is called shadowing and it's not recommended
-    let name = "Peter";
-    
-    // output: Peter
-    console.log(name);
+const paragraph = `
+${name}
+${lastName}
+${1+1}
+`;
 
-    // you can change age because it is in the same scope
-    age = 30;
+console.log(fullName)
 
-    // output: 30.
-    console.log(age);
+console.log(paragraph)
+
+//functions
+
+function greet(name) {
+    return `Hello ${name}`;
 }
 
-// output: Ibrahin 30. 
-console.log(name, age);
+console.log(greet(`Ibrahin ${lastName}`))
