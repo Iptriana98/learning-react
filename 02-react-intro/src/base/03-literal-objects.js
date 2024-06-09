@@ -1,4 +1,4 @@
-const person = {
+const person1 = {
     name: "Tony",
     lastName: "Stark",
     age: 45,
@@ -22,4 +22,4 @@ person2.name = "Peter";
 person2.lastName = "Parker";
 person2.age = 25;
 
-console.table({person, person2});
+console.table({person1, person2});
