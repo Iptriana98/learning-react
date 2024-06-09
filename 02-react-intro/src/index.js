@@ -1,24 +1,8 @@
-const name = "Ibrahin";
-const lastName = "Perez";
+// Arrays in js
+const array = new Array(100); // 100 elements empty
+const array1 = [1, 2, 3, 4, 5]; // 5 elements
+const array2 = [...array1, 6] // create a copy of array1 and add '6' at the end
 
-// const fullName = name + " " + lastName;
 
-const fullName = `${name} ${lastName}`;
 
-const paragraph = `
-${name}
-${lastName}
-${1+1}
-`;
-
-console.log(fullName)
-
-console.log(paragraph)
-
-//functions
-
-function greet(name) {
-    return `Hello ${name}`;
-}
-
-console.log(greet(`Ibrahin ${lastName}`))
+console.log(array2)
