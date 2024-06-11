@@ -80,7 +80,6 @@ In this lesson, we will learn how to use React within an HTML file. We will set 
 </body>
 </html>
 ```
-
 **Explanation:**
 
 - We include React and ReactDOM using CDN links.
