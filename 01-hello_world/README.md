@@ -14,6 +14,16 @@ Welcome to the React Learning Project! This repository is designed to teach you 
 
 This project is aimed at beginners who are just getting started with React. We will start with basic concepts and gradually move to more advanced topics. By the end of this project, you should have a good grasp of React and be able to build your own web applications.
 
+### What is React?
+
+React is a JavaScript library for building user interfaces, developed and maintained by Facebook. It allows developers to create large web applications that can update and render efficiently in response to data changes. React is component-based, which means the UI is built using small, reusable pieces of code called components.
+
+### Components in React
+
+In React, components are the building blocks of the user interface. They can be thought of as custom HTML elements that encapsulate their own structure, style, and behavior. Components can be composed together to build complex UIs. There are two types of components in React:
+- **Functional Components**: These are simple functions that return JSX (JavaScript XML), which is a syntax extension that looks similar to HTML.
+- **Class Components**: These are ES6 classes that extend from `React.Component` and include a `render` method to return JSX. (Note: Functional components are now preferred in modern React development due to the introduction of Hooks.)
+
 ## Setup
 
 To get started with this project, you will need to clone the repository and set up your development environment.
