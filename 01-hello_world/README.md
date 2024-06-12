@@ -80,6 +80,11 @@ In this lesson, we will learn how to use React within an HTML file. We will set 
 </body>
 </html>
 ```
+
+**Preview**
+
+![Screenshot](./assets/Captura%20de%20pantalla%2011.06.2024%20a%2018.41.49%20p.%E2%80%AFm..png)
+
 **Explanation:**
 
 - We include React and ReactDOM using CDN links.
