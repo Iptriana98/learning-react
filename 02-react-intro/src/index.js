@@ -1,8 +1,26 @@
-// Arrays in js
-const array = new Array(100); // 100 elements empty
-const array1 = [1, 2, 3, 4, 5]; // 5 elements
-const array2 = [...array1, 6] // create a copy of array1 and add '6' at the end
+// Functions in JavaScript
 
+function greet(name) {
+    return `Hello ${name}`;
+}   
 
+console.log(greet("Ibrahin"))
 
-console.log(array2)
+const greet2 = function(name) {
+    return `Hello ${name}`;
+}
+
+console.log(greet2("Ibrahin"))
+
+const greet3 = (name) => {
+    return `Hello ${name}`;
+}
+
+console.log(greet3("Ibrahin"))
+
+const getUser = (name) => ({
+    uid: 'ABC123',
+    username: name
+})
+
+console.log(getUser('Ibrahin'))
