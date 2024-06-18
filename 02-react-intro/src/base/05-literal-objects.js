@@ -66,6 +66,29 @@ let library = {
 let book = library.findBook("1984");
 console.log(book); // Output: { title: '1984', author: 'George Orwell' }
 
+// Objects destructuring:
+let { name, location } = company;
+console.log(name); // Output: Tech Corp
+console.log(location); // Output: New York
+
+const { name: companyName, location: companyLocation } = company;
+console.log(companyName); // Output: Tech Corp
+
+// Objects desctructuring in functions:
+function greet({ name, age }) {
+    console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+}
+
+greet({ name: "Alice", age: 30 }); // Output: Hello, my name is Alice and I am 30 years old.
+
+// Objects desctructuring in functions with default values:
+function greetWithDefault({ name = "John", age = 30 }) {
+    console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+}
+
+greetWithDefault({ name: "Alice" }); // Output: Hello, my name is Alice and I am 30 years old.
+
+// ===============================================================
 // Exercise:
 // 1. Declare a variable called `car` and create a Literal Object with properties: `brand`, `model`, and `year`.
 // 2. Add a method called `getDetails` that returns a string with the car details.
