@@ -6,11 +6,11 @@ Welcome to the JavaScript Learning Project! This repository contains interactive
 
 1. [Introduction](#introduction)
 2. [Variables](#variables)
-3. [Functions](#functions)
-4. [Loops](#loops)
-5. [Arrays](#arrays)
+3. [Arrays](#arrays)
+4. [Functions](#functions)
+5. [Loops](#loops)
 6. [Objects](#objects)
-7. [Events](#events)
+7. [Strings](#strings)
 
 ## Introduction
 
@@ -22,35 +22,37 @@ Learn about variables in JavaScript, including how to declare and use them.
 
 [Read more](src/base/01-variables.js)
 
+## Arrays
+
+Learn about arrays, including how to create and manipulate them.
+
+[Read more](src/base/02-arrays.js)
+
 ## Functions
 
 Learn about functions, including how to define and invoke them.
 
-[Read more](scripts/topics/functions.js)
+[Read more](src/base/03-functions.js)
 
 ## Loops
 
 Learn about loops, including for loops and while loops.
 
-[Read more](scripts/topics/loops.js)
-
-## Arrays
-
-Learn about arrays, including how to create and manipulate them.
-
-[Read more](scripts/topics/arrays.js)
+[Read more](src/base/04-loops.js)
 
 ## Objects
 
 Learn about objects, including how to create and work with them.
 
-[Read more](scripts/topics/objects.js)
+[Read more](src/base/05-literal-objects.js)
 
-## Events
+## Strings
 
-Learn about events, including how to handle user interactions.
+Learn about strings, including how to handle user templates strings.
 
-[Read more](scripts/topics/events.js)
+[Read more](src/base/06-templates-strings.js)
+
+--
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
