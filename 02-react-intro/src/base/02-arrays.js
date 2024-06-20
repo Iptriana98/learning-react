@@ -66,6 +66,19 @@ let veggies = ["Carrot", "Broccoli"];
 let food = fruits.concat(veggies);
 console.log(food); // Output: ["Apple", "Cherry", "Carrot", "Broccoli"]
 
+// Destructuring arrays:
+let [firstFruit, secondFruit, ...remainingFruits] = fruits;
+console.log(firstFruit); // Output: Apple
+console.log(secondFruit); // Output: Cherry
+console.log(remainingFruits); // Output: ["Carrot", "Broccoli"]
+
+// Sorting an array:
+fruits.sort();
+console.log(fruits); // Output: ["Apple", "Broccoli", "Carrot", "Cherry"]
+
+fruits.sort((a, b) => a.length - b.length);
+console.log(fruits); // Output: ["Apple", "Broccoli", "Carrot", "Cherry"]
+
 // Exercise:
 // 1. Create an array called `numbers` with elements: 1, 2, 3, 4, 5.
 // 2. Add the number 6 to the end of the array.
