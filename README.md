@@ -20,4 +20,4 @@ This project is aimed at teaching you how to build web applications using React.
 1. [Introduction to React](./01-hello_world/README.md)
    - Create a simple "hello world" application using react
 2. [Practicing JavaScript with React](./02-react-intro/README.md)
-   - Practicing with the JavaScript language with examples and exercises
+   - Practicing with the JavaScript language with examples and exercises from the React documentation
