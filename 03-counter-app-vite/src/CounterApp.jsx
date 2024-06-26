@@ -4,6 +4,8 @@ export const CounterApp = ({value}) => {
         <>
             <h1>Counter App</h1>
             <p>{value}</p>
+
+            <button> +1 </button>
         </>
     )
 }
