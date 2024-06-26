@@ -1,9 +1,9 @@
-import React, { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
-import { FirstApp } from "./FirstApp";
+import { CounterApp } from "./CounterApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <FirstApp title="Counter App" subtitle="This is a subtitle"/>
+        <CounterApp value={10}/>
     </React.StrictMode>
-)
+);
