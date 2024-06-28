@@ -12,7 +12,7 @@ export const CounterApp = ({ value }) => {
             <p>{counter}</p>
 
             <button onClick={handleAdd}>
-                +1
+                Add +1
             </button>
         </>
     )
