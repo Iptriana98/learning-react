@@ -5,16 +5,16 @@ Welcome to **CounterApp**, a simple yet engaging counter application built with 
 ## Table of Contents
 
 - [Demo](#demo)
-- [Features] (#features)
-- [Getting Started] (#getting-started)
-- [Usage] (#usage)
-- [Contributing] (#contributing)
-- [License] (#license)
-- [Contact] (#contact)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Demo
 
-Check out a live demo of the application here: [CounterApp Demo](../03-counter-app-vite/public/Captura%20de%20pantalla%2029.06.2024%20a%2005.13.24%20a. m..png)
+Check out a live demo of the application here: 
+
+![CounterApp Demo](../03-counter-app-vite/public/Captura%20de%20pantalla%2029.06.2024%20a%2005.13.24%20a. m..png)
 
 ## Features
 
