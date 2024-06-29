@@ -19,20 +19,11 @@ export const CounterApp = ({ value }) => {
         <>
             <h1>Counter App</h1>
             <p>{counter}</p>
-            <table>
-                <tr>
-                    <button onClick={handleAdd}>
-                        +1
-                    </button>
-                    <button onClick={handleSubtract}>
-                        -1
-                    </button>
-                    <button onClick={handleReset}>
-                        Reset
-                    </button>
-                </tr>
-            </table>
-
+            <div>
+                <button onClick={handleAdd}>+1</button>
+                <button onClick={handleSubtract}>-1</button>
+                <button onClick={handleReset}>Reset</button>
+            </div>
         </>
     )
 }
