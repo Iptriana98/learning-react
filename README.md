@@ -21,3 +21,5 @@ This project is aimed at teaching you how to build web applications using React.
    - Create a simple "hello world" application using react
 2. [Practicing JavaScript with React](./02-react-intro/README.md)
    - Practicing with the JavaScript language with examples and exercises from the React documentation
+3. [Counter App](./03-counter-app-vite/README.md)
+   - Practicing with React and Vite to build a simple counter application
