@@ -12,7 +12,7 @@ Welcome to **CounterApp**, a simple yet engaging counter application built with 
 
 ## Demo
 
-Check out a live demo of the application here: 
+Check out a live demo of the application here:
 
 ![CounterApp Demo](../03-counter-app-vite/public/Captura%20de%20pantalla%2029.06.2024%20a%2005.13.24%20a. m..png)
 
