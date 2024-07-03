@@ -1,5 +1,12 @@
-test('should first', () => { 
-    if (true) {
-        throw new Error('This is an error');
-    }
- });
+describe('demo', () => {
+    test('message should be trimmed', () => {
+        // Arrange
+        const message = 'Hello, World!';
+
+        // Act
+        const result = message.trim();
+
+        // Assert
+        expect(message).toBe(result);
+    });
+})
