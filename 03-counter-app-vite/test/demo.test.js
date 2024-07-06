@@ -7,6 +7,6 @@ describe('demo', () => {
         const result = message.trim();
 
         // Assert
-        expect(message).toBe(result);
+        expect(message).toBe(result); // Output: Hello, World!
     });
 })
