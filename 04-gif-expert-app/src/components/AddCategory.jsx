@@ -6,8 +6,9 @@ export const AddCategory = ({ onAdd }) => {
 
     const onSubmit = (event) => {
         event.preventDefault()
-        onAdd( categories => [...categories, inputValue])
         if (inputValue.trim().length <= 1) return
+
+        onAdd(inputValue.trim())
         setInputValue('')
     }
 
