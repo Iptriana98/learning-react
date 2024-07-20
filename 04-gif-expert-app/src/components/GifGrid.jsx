@@ -1,7 +1,5 @@
-import React from 'react'
-import { GifCardItem } from './GifCardItem';
 import { useFetchGifs } from '../hooks/useFetchGifs';
-import { LoadingMessage } from './LoadingMessage';
+import { GifCardItem, LoadingMessage } from './';
 
 export const GifGrid = ({ category }) => {
 
