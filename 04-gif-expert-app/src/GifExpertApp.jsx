@@ -6,13 +6,12 @@ export const GifExpertApp = () => {
 
     const handleAdd = (newCategory) => {
         if (categories.includes(newCategory)) return
-        setCategories([...categories, newCategory])
+        setCategories([newCategory, ...categories])
     }
     return (
         <>
             <h1>GifExpertApp</h1>
             <AddCategory onAdd={handleAdd} />
-
 
             {
                 categories.map((category) => (
