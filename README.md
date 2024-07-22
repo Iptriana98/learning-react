@@ -23,3 +23,5 @@ This project is aimed at teaching you how to build web applications using React.
    - Practicing with the JavaScript language with examples and exercises from the React documentation
 3. [Counter App](./03-counter-app-vite/README.md)
    - Practicing with React and Vite to build a simple counter application
+4. [Gif Expert App](./04-gif-expert-app/README.md)
+   - Create an application that makes API calls and displays the loaded data in a list
